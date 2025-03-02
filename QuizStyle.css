@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b6d7a8;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #359343;
+    color: #6cc36f;
+    margin: 0;
+    text-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #4CAF50;
+}
+
+/* Form Section */
+section {
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Radio buttons and checkboxes */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Styling for individual answers */
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Add some space between each answer */
+input[type="radio"]:not(:first-child), input[type="checkbox"]:not(:first-child) {
+    margin-top: 10px;
+}
+
+/* Input Styling for Inputs and Labels */
+input[type="radio"], input[type="checkbox"] {
+    transform: scale(1.2);
+}
+/* Form submit button */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    display: block;
+    margin: 20px auto;
+}
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.question label, .question input {
+    display: inline-block;
+    margin-right: 10px;
+}

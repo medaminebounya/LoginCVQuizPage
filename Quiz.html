@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="QuizStyle.css">
+</head>
+<body>
+    <h1>Quiz</h1>
+
+    <!-- Single Answer Questions -->
+    <section>
+        <h2>Single Answer Questions</h2>
+
+        <form>
+            <div class="question">
+                <label for="q1">1. What is the capital of France?</label><br>
+                <input type="radio" id="q1a1" name="q1" value="Paris">
+                <label for="q1a1">Paris</label><br>
+                <input type="radio" id="q1a2" name="q1" value="London">
+                <label for="q1a2">London</label><br>
+                <input type="radio" id="q1a3" name="q1" value="Berlin">
+                <label for="q1a3">Berlin</label><br>
+            </div>
+
+            <div class="question">
+                <label for="q2">2. Who wrote "Hamlet"?</label><br>
+                <input type="radio" id="q2a1" name="q2" value="Shakespeare">
+                <label for="q2a1">Shakespeare</label><br>
+                <input type="radio" id="q2a2" name="q2" value="Dickens">
+                <label for="q2a2">Dickens</label><br>
+                <input type="radio" id="q2a3" name="q2" value="Hemingway">
+                <label for="q2a3">Hemingway</label><br>
+            </div>
+
+            <div class="question">
+                <label for="q3">3. What is the square root of 16?</label><br>
+                <input type="radio" id="q3a1" name="q3" value="4">
+                <label for="q3a1">4</label><br>
+                <input type="radio" id="q3a2" name="q3" value="8">
+                <label for="q3a2">8</label><br>
+                <input type="radio" id="q3a3" name="q3" value="2">
+                <label for="q3a3">2</label><br>
+            </div>
+
+            <div class="question">
+                <label for="q4">4. Which planet is known as the Red Planet?</label><br>
+                <input type="radio" id="q4a1" name="q4" value="Mars">
+                <label for="q4a1">Mars</label><br>
+                <input type="radio" id="q4a2" name="q4" value="Venus">
+                <label for="q4a2">Venus</label><br>
+                <input type="radio" id="q4a3" name="q4" value="Jupiter">
+                <label for="q4a3">Jupiter</label><br>
+            </div>
+
+            <div class="question">
+                <label for="q5">5. Who was the first president of the United States?</label><br>
+                <input type="radio" id="q5a1" name="q5" value="George Washington">
+                <label for="q5a1">George Washington</label><br>
+                <input type="radio" id="q5a2" name="q5" value="Thomas Jefferson">
+                <label for="q5a2">Thomas Jefferson</label><br>
+                <input type="radio" id="q5a3" name="q5" value="Abraham Lincoln">
+                <label for="q5a3">Abraham Lincoln</label><br>
+            </div>
+
+            <div class="question">
+                <label for="q6">6. What is the largest mammal?</label><br>
+                <input type="radio" id="q6a1" name="q6" value="Blue Whale">
+                <label for="q6a1">Blue Whale</label><br>
+                <input type="radio" id="q6a2" name="q6" value="Elephant">
+                <label for="q6a2">Elephant</label><br>
+                <input type="radio" id="q6a3" name="q6" value="Giraffe">
+                <label for="q6a3">Giraffe</label><br>
+            </div>
+
+            <div class="question">
+                <label for="q7">7. In which year did the Titanic sink?</label><br>
+                <input type="radio" id="q7a1" name="q7" value="1912">
+                <label for="q7a1">1912</label><br>
+                <input type="radio" id="q7a2" name="q7" value="1920">
+                <label for="q7a2">1920</label><br>
+                <input type="radio" id="q7a3" name="q7" value="1898">
+                <label for="q7a3">1898</label><br>
+            </div>
+
+            <div class="question">
+                <label for="q8">8. Which is the longest river in the world?</label><br>
+                <input type="radio" id="q8a1" name="q8" value="Nile">
+                <label for="q8a1">Nile</label><br>
+                <input type="radio" id="q8a2" name="q8" value="Amazon">
+                <label for="q8a2">Amazon</label><br>
+                <input type="radio" id="q8a3" name="q8" value="Yangtze">
+                <label for="q8a3">Yangtze</label><br>
+            </div>
+
+            <div class="question">
+                <label for="q9">9. What is the chemical symbol for water?</label><br>
+                <input type="radio" id="q9a1" name="q9" value="H2O">
+                <label for="q9a1">H2O</label><br>
+                <input type="radio" id="q9a2" name="q9" value="O2">
+                <label for="q9a2">O2</label><br>
+                <input type="radio" id="q9a3" name="q9" value="CO2">
+                <label for="q9a3">CO2</label><br>
+            </div>
+
+            <div class="question">
+                <label for="q10">10. What is the capital of Japan?</label><br>
+                <input type="radio" id="q10a1" name="q10" value="Tokyo">
+                <label for="q10a1">Tokyo</label><br>
+                <input type="radio" id="q10a2" name="q10" value="Seoul">
+                <label for="q10a2">Seoul</label><br>
+                <input type="radio" id="q10a3" name="q10" value="Beijing">
+                <label for="q10a3">Beijing</label><br>
+            </div>
+        </form>
+    </section>
+
+    <!-- Multiple Choice Questions -->
+    <section>
+        <h2>Multiple Choice Questions</h2>
+
+        <form>
+            <div class="question">
+                <label for="mq1">1. Which of the following are programming languages? (Select all that apply)</label><br>
+                <input type="checkbox" id="mq1a1" name="mq1" value="Python">
+                <label for="mq1a1">Python</label><br>
+                <input type="checkbox" id="mq1a2" name="mq1" value="HTML">
+                <label for="mq1a2">HTML</label><br>
+                <input type="checkbox" id="mq1a3" name="mq1" value="CSS">
+                <label for="mq1a3">CSS</label><br>
+                <input type="checkbox" id="mq1a4" name="mq1" value="Banana">
+                <label for="mq1a4">Banana</label><br>
+            </div>
+
+            <div class="question">
+                <label for="mq2">2. Which countries are in Europe? (Select all that apply)</label><br>
+                <input type="checkbox" id="mq2a1" name="mq2" value="Germany">
+                <label for="mq2a1">Germany</label><br>
+                <input type="checkbox" id="mq2a2" name="mq2" value="Egypt">
+                <label for="mq2a2">Egypt</label><br>
+                <input type="checkbox" id="mq2a3" name="mq2" value="Italy">
+                <label for="mq2a3">Italy</label><br>
+                <input type="checkbox" id="mq2a4" name="mq2" value="Brazil">
+                <label for="mq2a4">Brazil</label><br>
+            </div>
+
+            <div class="question">
+                <label for="mq3">3. Which of these are prime numbers? (Select all that apply)</label><br>
+                <input type="checkbox" id="mq3a1" name="mq3" value="3">
+                <label for="mq3a1">3</label><br>
+                <input type="checkbox" id="mq3a2" name="mq3" value="4">
+                <label for="mq3a2">4</label><br>
+                <input type="checkbox" id="mq3a3" name="mq3" value="5">
+                <label for="mq3a3">5</label><br>
+                <input type="checkbox" id="mq3a4" name="mq3" value="9">
+                <label for="mq3a4">9</label><br>
+            </div>
+
+            <div class="question">
+                <label for="mq4">4. Which of the following are chemical elements? (Select all that apply)</label><br>
+                <input type="checkbox" id="mq4a1" name="mq4" value="Oxygen">
+                <label for="mq4a1">Oxygen</label><br>
+                <input type="checkbox" id="mq4a2" name="mq4" value="Water">
+                <label for="mq4a2">Water</label><br>
+                <input type="checkbox" id="mq4a3" name="mq4" value="Carbon">
+                <label for="mq4a3">Carbon</label><br>
+                <input type="checkbox" id="mq4a4" name="mq4" value="Hydrogen">
+                <label for="mq4a4">Hydrogen</label><br>
+            </div>
+
+            <div class="question">
+                <label for="mq5">5. Which of these are programming paradigms? (Select all that apply)</label><br>
+                <input type="checkbox" id="mq5a1" name="mq5" value="Object-Oriented Programming">
+                <label for="mq5a1">Object-Oriented Programming</label><br>
+                <input type="checkbox" id="mq5a2" name="mq5" value="Functional Programming">
+                <label for="mq5a2">Functional Programming</label><br>
+                <input type="checkbox" id="mq5a3" name="mq5" value="Imperative Programming">
+                <label for="mq5a3">Imperative Programming</label><br>
+                <input type="checkbox" id="mq5a4" name="mq5" value="Procedural Programming">
+                <label for="mq5a4">Procedural Programming</label><br>
+            </div>
+
+            <div class="question">
+                <label for="mq6">6. Which of these are operating systems? (Select all that apply)</label><br>
+                <input type="checkbox" id="mq6a1" name="mq6" value="Windows">
+                <label for="mq6a1">Windows</label><br>
+                <input type="checkbox" id="mq6a2" name="mq6" value="Linux">
+                <label for="mq6a2">Linux</label><br>
+                <input type="checkbox" id="mq6a3" name="mq6" value="iOS">
+                <label for="mq6a3">iOS</label><br>
+                <input type="checkbox" id="mq6a4" name="mq6" value="Android">
+                <label for="mq6a4">Android</label><br>
+            </div>
+
+            <div class="question">
+                <label for="mq7">7. Which of these are colors? (Select all that apply)</label><br>
+                <input type="checkbox" id="mq7a1" name="mq7" value="Red">
+                <label for="mq7a1">Red</label><br>
+                <input type="checkbox" id="mq7a2" name="mq7" value="Green">
+                <label for="mq7a2">Green</label><br>
+                <input type="checkbox" id="mq7a3" name="mq7" value="Yellow">
+                <label for="mq7a3">Yellow</label><br>
+                <input type="checkbox" id="mq7a4" name="mq7" value="Sky">
+                <label for="mq7a4">Sky</label><br>
+            </div>
+
+            <div class="question">
+                <label for="mq8">8. Which of these are famous authors? (Select all that apply)</label><br>
+                <input type="checkbox" id="mq8a1" name="mq8" value="Shakespeare">
+                <label for="mq8a1">Shakespeare</label><br>
+                <input type="checkbox" id="mq8a2" name="mq8" value="Hemingway">
+                <label for="mq8a2">Hemingway</label><br>
+                <input type="checkbox" id="mq8a3" name="mq8" value="Dickens">
+                <label for="mq8a3">Dickens</label><br>
+                <input type="checkbox" id="mq8a4" name="mq8" value="J.K. Rowling">
+                <label for="mq8a4">J.K. Rowling</label><br>
+            </div>
+
+            <div class="question">
+                <label for="mq9">9. Which of these are countries in Africa? (Select all that apply)</label><br>
+                <input type="checkbox" id="mq9a1" name="mq9" value="Egypt">
+                <label for="mq9a1">Egypt</label><br>
+                <input type="checkbox" id="mq9a2" name="mq9" value="Morocco">
+                <label for="mq9a2">Morocco</label><br>
+                <input type="checkbox" id="mq9a3" name="mq9" value="China">
+                <label for="mq9a3">China</label><br>
+                <input type="checkbox" id="mq9a4" name="mq9" value="Brazil">
+                <label for="mq9a4">Brazil</label><br>
+            </div>
+
+            <div class="question">
+                <label for="mq10">10. Which of these are fruits? (Select all that apply)</label><br>
+                <input type="checkbox" id="mq10a1" name="mq10" value="Apple">
+                <label for="mq10a1">Apple</label><br>
+                <input type="checkbox" id="mq10a2" name="mq10" value="Carrot">
+                <label for="mq10a2">Carrot</label><br>
+                <input type="checkbox" id="mq10a3" name="mq10" value="Banana">
+                <label for="mq10a3">Banana</label><br>
+                <input type="checkbox" id="mq10a4" name="mq10" value="Celery">
+                <label for="mq10a3">Celery</label><br>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
